@@ -22,3 +22,14 @@ Thumbs.db
 Desktop.ini
 .DS_Store
 .directory
+
+# Ignore Node.js dependencies and build output
+node_modules/
+dist/
+build/
+
+# Ignore TypeScript compiled files
+*.tsbuildinfo
+
+# Ignore package-lock.json (optional, but useful if you don't want to track it)
+package-lock.json

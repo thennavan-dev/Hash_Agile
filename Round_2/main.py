@@ -1,6 +1,6 @@
-from csv_to_json import csv_to_json
-from connection import create_es_connection
-from elastic_functions import create_index, index_data, search_by_column, delete_employee, get_employee_count, get_department_facets
+from Round_2.csv_to_json import csv_to_json
+from Round_2.connection import create_es_connection
+from Round_2.elastic_functions import create_index, index_data, search_by_column, delete_employee, get_employee_count, get_department_facets
 
 def main():
     csv_file = 'Employee_Sample_Data_1.csv'
