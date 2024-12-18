@@ -1,0 +1,24 @@
+# Ignore virtual environment
+venv/
+
+# Ignore Python compiled files
+__pycache__/
+*.pyc
+
+# Ignore generated JSON data file
+employee_data.json
+
+# Ignore VSCode settings folder
+.vscode/
+
+# Ignore PyCharm settings folder
+.idea/
+
+# Ignore log files
+*.log
+
+# Ignore system files
+Thumbs.db
+Desktop.ini
+.DS_Store
+.directory
